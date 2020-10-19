@@ -1,47 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>items</key>
-		<array>
-			<dict>
-				<key>assets</key>
-				<array>
-					<dict>
-						<key>kind</key>
-						<string>software-package</string>
-						<key>url</key>
-						<string>http://219.146.3.94:9003/release/ios/sdydsl.ipa</string>
-					</dict>
-					<dict>
-						<key>kind</key>
-						<string>display-image</string>
-						<key>needs-shine</key>
-						<true/>
-						<key>url</key>
-						<string>http://219.146.3.94:9003/release/ios/57.png</string>
-					</dict>
-					<dict>
-						<key>kind</key>
-						<string>full-size-image</string>
-						<key>needs-shine</key>
-						<true/>
-						<key>url</key>
-						<string>http://219.146.3.94:9003/release/ios/512.png</string>
-					</dict>
-				</array>
-				<key>metadata</key>
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
 				<dict>
-					<key>bundle-identifier</key>
-					<string>com.chinatelecom.heilongjiang.iphone</string>
-					<key>bundle-version</key>
-					<string>1.0</string>
 					<key>kind</key>
-					<string>software</string>
-					<key>title</key>
-					<string>翼销售</string>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://gitee.com/allen1707/public/raw/master/apk/appiPhone.ipa</string>
 				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.chinatelecom.shandong.yixiaoshou</string>
+				<key>bundle-version</key>
+				<string>1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>山东翼销售</string>
 			</dict>
-		</array>
-	</dict>
+		</dict>
+	</array>
+</dict>
 </plist>
